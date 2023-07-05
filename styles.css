@@ -48,8 +48,8 @@ nav ul li a {
     color: #003F6B;
 }
 
-a:hover{
-    background-color:#003e6b7c;
+a:hover {
+    background-color: #003e6b7c;
     border-radius: 10px;
     padding: 5px;
 }
@@ -90,6 +90,9 @@ article p {
     height: 400px;
 }
 
+img:hover {
+    transform: scale(1.1);
+}
 
 /* Estilos para el video */
 .video-container {
@@ -148,7 +151,7 @@ footer h4 {
 footer ul {
     list-style-type: none;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     width: 50%;
     margin: 0 auto;
 }
@@ -220,7 +223,7 @@ footer ul li a {
     background-image: url("./img/Background.jpeg");
     resize: both;
     overflow: auto;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -246,7 +249,7 @@ footer ul li a {
     max-width: 100%;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .historia-del-club-sections {
         display: flex;
         flex-wrap: wrap;
