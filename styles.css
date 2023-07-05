@@ -217,7 +217,7 @@ footer ul li a {
 /* Imagen de fondo */
 
 .img-background {
-    background-image: url("./img/Background.webp");
+    background-image: url("./img/Background.jpeg");
     resize: both;
     overflow: auto;
     background-attachment:fixed;
