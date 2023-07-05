@@ -211,7 +211,7 @@ footer ul li a {
 
 .boca-formulario input[type="submit"]:hover,
 .boca-formulario input[type="reset"]:hover {
-    background-color: #FFD700;
+    background-color: #d4bd39;
 }
 
 /* Imagen de fondo */
@@ -221,6 +221,7 @@ footer ul li a {
     resize: both;
     overflow: auto;
     background-attachment:fixed;
+    background-size: cover;
 }
 
 /* iFrame Google Maps */
