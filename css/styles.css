@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/*Variables*/
+/* Resetear estilos predeterminados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #003F6B;
+  color: #FFFFFF;
+}
+
+/* Estilos para header */
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFD700;
+  padding: 20px;
+}
+header h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #003F6B;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+nav ul li {
+  margin-right: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #003F6B;
+}
+
+a:hover {
+  background-color: rgba(0, 62, 107, 0.4862745098);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* Estilos para el main */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+article p {
+  margin-bottom: 10px;
+}
+
+/* Estilos para las imágenes */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image-gallery img {
+  max-width: 300px;
+  height: auto;
+  margin: 10px;
+  transition: all 0.5s;
+}
+
+.gallery-section img {
+  height: 400px;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.image-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFD700;
+  text-shadow: 5px 5px 5px #000000;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.0901960784);
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.image-text:hover {
+  opacity: 1;
+}
+
+.image-container {
+  position: relative;
+}
+
+/* Estilos para el video */
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+.video-box {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
+  color: #FFD700;
+  background-color: rgba(0, 62, 107, 0.8980392157);
+  border-radius: 10px;
+}
+
+/* Cajas */
+.section-container {
+  max-width: 1700px;
+  width: 100%;
+  padding: 10px;
+  color: #FFD700;
+  background-color: rgba(0, 62, 107, 0.8980392157);
+  border-radius: 10px;
+  margin-inline: auto;
+}
+
+.section-container-small {
+  max-width: 1000px;
+}
+
+section.section-container-small {
+  margin-bottom: 20px;
+}
+
+/* Tamaño maximo de Video */
+video {
+  max-width: 100%;
+}
+
+/* Estilos para footer */
+footer {
+  background-color: #FFD700;
+  padding: 20px;
+  text-align: center;
+}
+footer h4 {
+  margin-bottom: 10px;
+  color: #003F6B;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 0 auto;
+}
+footer ul li {
+  font-size: 30px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #003F6B;
+}
+
+/* Estilos para el Formulario */
+.boca-formulario {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #003F6B;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.boca-formulario h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.boca-formulario label {
+  display: block;
+  margin-bottom: 5px;
+}
+.boca-formulario input[type=text],
+.boca-formulario input[type=email],
+.boca-formulario select,
+.boca-formulario textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.boca-formulario textarea {
+  height: 100px;
+}
+.boca-formulario input[type=submit],
+.boca-formulario input[type=reset] {
+  padding: 10px 20px;
+  background-color: #FFD700;
+  color: #003F6B;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.boca-formulario input[type=submit]:hover,
+.boca-formulario input[type=reset]:hover {
+  background-color: #d4bd39;
+}
+
+/* Imagen de fondo */
+.img-background {
+  background-image: url("../img/Background.jpeg");
+  resize: both;
+  overflow: auto;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* iFrame Google Maps */
+.iframe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Estilos Historia del Club */
+.historia-del-club-sections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+}
+
+.section-fundacion {
+  grid-column: span 2;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .historia-del-club-sections {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
