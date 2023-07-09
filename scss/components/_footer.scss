@@ -1,0 +1,28 @@
+/* Estilos para footer */
+footer {
+    background-color: $coloramarillo;
+    padding: 20px;
+    text-align: center;
+
+    h4 {
+        margin-bottom: 10px;
+        color: $colorazul;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        margin: 0 auto;
+
+        li {
+            font-size: 30px;
+
+            a {
+                text-decoration: none;
+                color: $colorazul;
+            }
+        }
+    }
+}

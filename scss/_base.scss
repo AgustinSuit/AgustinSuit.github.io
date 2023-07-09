@@ -1,0 +1,50 @@
+/*Variables*/
+$colorazul: #003F6B;
+$coloramarillo: #FFD700;
+
+/* Resetear estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: $colorazul;
+    color: #FFFFFF;
+}
+
+/* Estilos para el main */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+
+article {
+    p {
+        margin-bottom: 10px;
+    }
+
+}
+
+
+/* Tamaño maximo de Video */
+
+video {
+    max-width: 100%;
+}

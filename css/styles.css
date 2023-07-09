@@ -17,6 +17,29 @@
   color: #FFFFFF;
 }
 
+/* Estilos para el main */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+article p {
+  margin-bottom: 10px;
+}
+
+/* Tamaño maximo de Video */
+video {
+  max-width: 100%;
+}
+
 /* Estilos para header */
 header {
   display: flex;
@@ -49,24 +72,6 @@ a:hover {
   background-color: rgba(0, 62, 107, 0.4862745098);
   border-radius: 10px;
   padding: 5px;
-}
-
-/* Estilos para el main */
-main {
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 20px;
-}
-section h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-article p {
-  margin-bottom: 10px;
 }
 
 /* Estilos para las imágenes */
@@ -151,9 +156,20 @@ section.section-container-small {
   margin-bottom: 20px;
 }
 
-/* Tamaño maximo de Video */
-video {
-  max-width: 100%;
+/* iFrame Google Maps */
+.iframe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Imagen de fondo */
+.img-background {
+  background-image: url("../img/Background.jpeg");
+  resize: both;
+  overflow: auto;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Estilos para footer */
@@ -223,22 +239,6 @@ footer ul li a {
 .boca-formulario input[type=submit]:hover,
 .boca-formulario input[type=reset]:hover {
   background-color: #d4bd39;
-}
-
-/* Imagen de fondo */
-.img-background {
-  background-image: url("../img/Background.jpeg");
-  resize: both;
-  overflow: auto;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-/* iFrame Google Maps */
-.iframe {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 /* Estilos Historia del Club */
