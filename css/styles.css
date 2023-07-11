@@ -72,6 +72,7 @@ a:hover {
   background-color: rgba(0, 62, 107, 0.4862745098);
   border-radius: 10px;
   padding: 5px;
+  transition: 0.3s;
 }
 
 /* Estilos para las imágenes */
@@ -86,8 +87,7 @@ a:hover {
   height: 300px;
   transition: all 0.5s;
 }
-
-img:hover {
+.image-gallery img:hover {
   transform: scale(1.1);
 }
 
@@ -158,6 +158,10 @@ section.section-container-small {
   flex-direction: column;
   justify-content: center;
 }
+.iframe h3 {
+  text-align: center;
+  margin-top: 10px;
+}
 
 /* Imagen de fondo */
 .img-background {
@@ -197,18 +201,25 @@ footer ul li a {
 .boca-formulario {
   max-width: 500px;
   margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
   padding: 20px;
-  background-color: #003F6B;
+  background-color: rgba(0, 62, 107, 0.8980392157);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .boca-formulario h3 {
   text-align: center;
   margin-bottom: 20px;
+  color: #FFD700;
+}
+.boca-formulario legend {
+  color: #FFD700;
 }
 .boca-formulario label {
   display: block;
   margin-bottom: 5px;
+  color: #FFD700;
 }
 .boca-formulario input[type=text],
 .boca-formulario input[type=email],
@@ -235,6 +246,7 @@ footer ul li a {
 .boca-formulario input[type=submit]:hover,
 .boca-formulario input[type=reset]:hover {
   background-color: #d4bd39;
+  transition: 0.5s;
 }
 
 /* Estilos Historia del Club */

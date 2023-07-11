@@ -3,19 +3,27 @@
 .boca-formulario {
     max-width: 500px;
     margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
     padding: 20px;
-    background-color: $colorazul;
+    background-color: #003e6be5;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
     h3 {
         text-align: center;
         margin-bottom: 20px;
+        color: $coloramarillo;
+    }
+
+    legend {
+        color: $coloramarillo;
     }
 
     label {
         display: block;
         margin-bottom: 5px;
+        color: $coloramarillo;
     }
 
     input[type="text"],
@@ -44,6 +52,7 @@
 
         &:hover {
             background-color: #d4bd39;
+            transition: 0.5s;
         }
     }
 
