@@ -81,14 +81,10 @@ a:hover {
   justify-content: center;
 }
 .image-gallery img {
-  max-width: 300px;
-  height: auto;
+  width: 300px;
   margin: 10px;
+  height: 300px;
   transition: all 0.5s;
-}
-
-.gallery-section img {
-  width: 100%;
 }
 
 img:hover {
