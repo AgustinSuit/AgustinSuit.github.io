@@ -89,6 +89,7 @@ a:hover {
 }
 .image-gallery img:hover {
   transform: scale(1.1);
+  filter: drop-shadow(3px 3px 3px);
 }
 
 .image-text {
