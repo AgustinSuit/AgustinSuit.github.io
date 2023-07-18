@@ -144,6 +144,9 @@ nav ul li a {
   border-radius: 10px;
   margin-inline: auto;
 }
+.section-container p {
+  text-align: justify;
+}
 
 .section-container-small {
   max-width: 1000px;
