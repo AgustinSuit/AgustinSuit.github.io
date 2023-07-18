@@ -35,6 +35,13 @@ article p {
   margin-bottom: 10px;
 }
 
+a:hover {
+  background-color: rgba(0, 62, 107, 0.4862745098);
+  border-radius: 10px;
+  padding: 5px;
+  transition: 0.3s;
+}
+
 /* Tamaño maximo de Video */
 video {
   max-width: 100%;
@@ -66,12 +73,6 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #003F6B;
-}
-nav ul li a:hover {
-  background-color: rgba(0, 62, 107, 0.4862745098);
-  border-radius: 10px;
-  padding: 5px;
-  transition: 0.3s;
 }
 
 /* Estilos para las imágenes */
